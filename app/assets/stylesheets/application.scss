@@ -13,27 +13,30 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap-sprockets";  /*ここを追加*/
- @import "bootstrap";            /*ここを追加*/
+@import "bootstrap-sprockets";  /*ここを追加*/
+@import "bootstrap";            /*ここを追加*/
 
-.body {
-	margin-top: 50px;
+body{
+ position: relative;
 }
-div.field, div.actions {
-	margin-bottom: 10px;
+
+.container{
+  height: 100%;
 }
-header {
-	color: white;
+
+
+.bg-4 {
+  background-color: black;
+  color: #ffffff;
+  width: 100%
 }
-header .navbar-left span{
-	font-size: 20px;
-	padding-top: 10px;
+.navbar-left span{
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  font-family:'Bookman Old Style'
 }
-a:visited {
-	color: #666;
-}
-p,ol,ul,td {
-	font-family: verdana, arial, helvetica, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
+
+.input-label{
+  width :150px;
 }
