@@ -1,3 +1,10 @@
-<h1>ようこそ <strong>Bookers</strong>  へ！</h1>
-<p><strong>Bookers</strong>  では、さまざまな書籍に関するあなたの意見や</p><p>印象を共有し交換することができます</p>
-<p><%= link_to 'start', books_path %></p>
+<div class="container">
+  <div class="row">
+    <h2>welcome to Bookers !!</h2>
+    <p>In Bookers,</p>
+    <p>you can share and exchange your opinions , inpressions , and emotions</p>
+    <p>about various books!</p>
+    <p class="btn btn-success btn-lg"><%= link_to 'sign_up',new_user_registration_path %></p>
+    <p class="btn btn-primary btn-lg"><%= link_to 'log_in', new_user_session_path %></p>
+  </div>
+</div>
