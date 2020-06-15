@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def top
-  	@name = 'Ninomiya'
+  end
+  def about
   end
 end
